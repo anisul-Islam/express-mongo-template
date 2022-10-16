@@ -1,0 +1,21 @@
+{
+    "env": {
+        "node": true,
+        "commonjs": true,
+        "es2021": true
+    },
+    "extends": "eslint:recommended",
+    "overrides": [],
+    "parserOptions": {
+        "ecmaVersion": "latest"
+    },
+    "rules": {
+        "no-var": "error",
+        "camelcase": "error",
+        "no-empty": "error",
+        "default-case": "error",
+        "eqeqeq": "error",
+        "max-lines": ["error", 150],
+        "max-depth": ["error", 3]
+    }
+}
